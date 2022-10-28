@@ -180,7 +180,7 @@ Create an instance of `Base` with the given `cache` and `options`. Learn about t
 
 **Params**
 
-* `cache` **{Object}**: If supplied, this object is passed to [cache-base](https://github.com/jonschlinkert/cache-base) to merge onto the the instance.
+* `cache` **{Object}**: If supplied, this object is passed to [cache-base](https://github.com/jonschlinkert/cache-base) to merge onto the instance.
 * `options` **{Object}**: If supplied, this object is used to initialize the `base.options` object.
 
 **Example**
@@ -231,7 +231,7 @@ instance.
 **Params**
 
 * `name` **{String}**: The plugin name.
-* `register` **{Boolean}**: If the plugin if not already registered, to record it as being registered pass `true` as the second argument.
+* `register` **{Boolean}**: If the plugin is not already registered, to record it as being registered pass `true` as the second argument.
 * `returns` **{Boolean}**: Returns true if a plugin is already registered.
 
 **Events**
@@ -367,7 +367,7 @@ Base is part of the [Toolkit suite](https://github.com/node-toolkit/getting-star
 
 Toolkit is a collection of node.js libraries, applications and frameworks for helping developers quickly create high quality node.js applications, web projects, and command-line experiences. There are many other libraries on NPM for handling specific tasks, Toolkit provides the _systems_ and _building blocks_ for creating higher level workflows and processes around those libraries.
 
-Toolkit can be used to create a static site generator, blog framework, documentaton system, command line, task or plugin runner, and more!
+Toolkit can be used to create a static site generator, blog framework, documentation system, command line, task or plugin runner, and more!
 
 **Building Blocks**
 
@@ -419,7 +419,7 @@ If Base doesn't do what you need, [please let us know](../../issues).
 
 ### Release History
 
-See the [changelog](CHANGELOG.md);
+See the [changelog](changelog.md);
 
 ### Authors
 
